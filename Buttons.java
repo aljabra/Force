@@ -27,7 +27,7 @@ public class Buttons extends Applet implements ActionListener
         //button3 = new Button("Picture");
         //add(button3);
         //button3.addActionListener(this);
-        next = new Button("Next Question Please");
+        next = new Button("Next Question");
         add(next);
         next.addActionListener(this);
     }
