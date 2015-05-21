@@ -10,3 +10,4 @@ VERSION or DATE:
 HOW TO START THIS PROJECT:
 AUTHORS:
 USER INSTRUCTIONS:
+http://www.willamette.edu/~gorr/classes/cs231/lectures/chapter5/
