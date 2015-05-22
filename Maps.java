@@ -118,4 +118,8 @@ public Maps()
    
 
 }
+public String getCapital(int a)
+{
+    return capitals.get(a);
+}
 }

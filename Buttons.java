@@ -30,6 +30,7 @@ public class Buttons extends Applet implements ActionListener
         next = new Button("Next Question");
         add(next);
         next.addActionListener(this);
+        
     }
     public void actionPerformed(ActionEvent ae)
     {
@@ -48,6 +49,7 @@ public class Buttons extends Applet implements ActionListener
         }
         repaint();
     }
+   
 //     public void paint(Graphics g)
 //     {
 //         if (buttonPress == 1)
@@ -175,6 +177,7 @@ public class Buttons extends Applet implements ActionListener
          TextField inputLine = new TextField(15);  
     
     public Buttons() {
+       
         add(inputLine);
         inputLine.addActionListener(
             new ActionListener() {
@@ -189,7 +192,9 @@ public class Buttons extends Applet implements ActionListener
                         inputLine.setBackground(Color.red);
                         inputLine.setName("");
                 }
-            });
-         
-    }
+
+}
+}
+);
+}
 }
