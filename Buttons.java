@@ -172,4 +172,24 @@ public class Buttons extends Applet implements ActionListener
 //         g.fillRect(180,205,5,30);
 //         g.drawString("Adidas",155,280);
 //     }
+         TextField inputLine = new TextField(15);  
+    
+    public Buttons() {
+        add(inputLine);
+        inputLine.addActionListener(
+            new ActionListener() {
+                public void actionPerformed(ActionEvent event) {
+                    String s = inputLine.getText();
+                    if(s.equals("a"))
+                    {
+                        inputLine.setBackground(Color.green);
+                    }
+                    else
+                    {
+                        inputLine.setBackground(Color.red);
+                        inputLine.setName("");
+                }
+            }
+         );
+    }
 }
