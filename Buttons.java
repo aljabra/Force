@@ -190,6 +190,9 @@ public class Buttons extends Applet implements ActionListener
                         inputLine.setName("");
                 }
             }
-         );
+            
+         
     }
+    );
+}
 }
