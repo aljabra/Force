@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.applet.*;
 
-public class MyApplet extends Applet  { 
+public class MyApplet extends Applet implements ActionListener  { 
     TextField inputLine = new TextField(15);  
     
     public MyApplet() {
@@ -13,7 +13,7 @@ public class MyApplet extends Applet  {
                     String s = inputLine.getText();
                     if(s.equals("a"))
                     {
-                       inputLine.setBackground(Color.);
+                       inputLine.setBackground(Color.green);
                     }
                 }
             }
