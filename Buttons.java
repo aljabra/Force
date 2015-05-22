@@ -189,7 +189,7 @@ public class Buttons extends Applet implements ActionListener
                         inputLine.setBackground(Color.red);
                         inputLine.setName("");
                 }
-            }
-         );
+            });
+         
     }
 }
