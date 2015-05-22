@@ -1,6 +1,6 @@
 package a;
 
-
+import java.util.Scanner;
 /**
  * Write a description of class Calculation here.
  * 
@@ -9,27 +9,25 @@ package a;
  */
 public class Calculation
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Calculation
-     */
-    public Calculation()
+    public static void main(String s[])
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        System.out.println("Welcome to the Balckhole");
+        System.out.println("Enter the time constant");
+        Scanner a = new Scanner(System.in);
+        double constant = a.nextDouble();
+        System.out.println("Enter the intial distance");
+        double x = a.nextDouble();
+        System.out.println("Enter the product of charges in nanoColumbs");
+        double q = a.nextDouble();
+        System.out.println("Enter how many time constant");
+        int n = a.nextInt();
+        Black_hole b = new Black_hole(constant,x,q);
+        for(int i = 1; i <= n; i++)
+        {
+            b.change();
+            System.out.println("Accelration after " + i + " time constant is " + b.getAcceleration());
+            System.out.println("Velocity after " + i + " time constant is " + b.getVelocity());
+            System.out.println("Displacement after " + i + " time constant is " + b.getDisplacement());
+        }
     }
 }
