@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=constant\ intialDistance\ productCharges
+comment0.target=Black_hole(double,\ double,\ double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Black_hole\r\n
+comment1.params=
+comment1.target=void\ change()
+comment2.params=
+comment2.target=double\ getAcceleration()
+comment3.params=
+comment3.target=double\ getVelocity()
+comment4.params=
+comment4.target=double\ getDisplacement()
+numComments=5
